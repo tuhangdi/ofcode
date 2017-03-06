@@ -19,7 +19,7 @@ public class Quicksort {
         int i = lo+1;
         int j = hi;
         while(true) {
-            while (data[i] < index) {
+            while (data[i] <= index) {
                 if (i == hi) break;
                 ++i;
             }
@@ -38,7 +38,7 @@ public class Quicksort {
         return j;
     }
     public static void main(String[] args){
-        int[] data = {6,4,3,2,1};
+        int[] data = {6,2,2,2,1};
         Quicksort qs = new Quicksort();
         int[] dat = new int[5];
         dat = qs.quickSort(data, 0, data.length-1);
