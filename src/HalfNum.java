@@ -68,6 +68,7 @@ public class HalfNum {
             return 0;
         return result;
     }
+
     public static void main(String[] args){
         int[] array = {1,2,3,2,2,2,5,4,2};
         HalfNum hn = new HalfNum();

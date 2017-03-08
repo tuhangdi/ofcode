@@ -1,6 +1,4 @@
 
-import java.util.Collections;
-import java.util.Random;
 
 /**
  * Created by thd on 2017/2/24.
@@ -16,16 +14,14 @@ public class Quicksort {
     }
     public int part(int[] data,int lo,int hi){
         int index = data[lo];
-        int i = lo+1;
-        int j = hi;
+        int i = lo;
+        int j = hi + 1;
         while(true) {
-            while (data[i] <= index) {
+            while (data[++i] <= index) {
                 if (i == hi) break;
-                ++i;
             }
-            while (data[j] > index) {
+            while (data[--j] > index) {
                 if (j == lo) break;
-                --j;
             }
             if (i >= j) break;
             int tmp = data[i];
