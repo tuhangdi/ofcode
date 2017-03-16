@@ -5,7 +5,7 @@
  * 习惯上我们把 1 当做是第一个丑数。
  * 求按从小到大的顺序的第 N 个丑数。
  */
-public class UglyNumber {
+public class UglyNumber34 {
     //逐个判断每个整数是不是丑数的解法，直观但不够高效
     public int GetUglyNumber_Solution(int index) {
         if(index <= 0) return 0;
@@ -50,7 +50,7 @@ public class UglyNumber {
         return uglyArray[nextUglyNum - 1];
     }
     public static void main(String [] args){
-        UglyNumber un = new UglyNumber();
+        UglyNumber34 un = new UglyNumber34();
         System.out.println(un.GetUglyNumber(1500));
     }
 }

@@ -3,7 +3,7 @@
  * 数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字。
  * 例如输入一个长度为9的数组{1,2,3,2,2,2,5,4,2}。由于数字2在数组中出现了5次，超过数组长度的一半，因此输出2。如果不存在则输出0。
  */
-public class HalfNum {
+public class HalfNum29 {
     //基于快排的O(n)算法,即找该数组的中位数。
     public int MoreThanHalfNum_Solution(int [] array) {
         if(CheckInvalidArray(array, array.length))
@@ -71,7 +71,7 @@ public class HalfNum {
 
     public static void main(String[] args){
         int[] array = {1,2,3,2,2,2,5,4,2};
-        HalfNum hn = new HalfNum();
+        HalfNum29 hn = new HalfNum29();
         System.out.println(hn.MoreThanHalfNum_Solution(array));
         System.out.println(hn.MoreThanHalfNum(array));
     }

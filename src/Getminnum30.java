@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * 输入n个整数，找出其中最小的K个数。
  * 例如输入4,5,1,6,2,7,3,8这8个数字，则最小的4个数字是1,2,3,4,。
  */
-public class Getminnum {
+public class Getminnum30 {
     //利用快排但不排完, O(n)算法，但是需要修改输入的数组,切取出数字不是顺序的。
     public ArrayList<Integer> GetLeastNumbers_Solution(int [] input, int k) {
         ArrayList<Integer> leastNumbers = new ArrayList<>();
@@ -109,7 +109,7 @@ public class Getminnum {
 
     public static void main(String[] args){
         int [] input = {4,5,1,6,2,7,3,8};
-        Getminnum gn = new Getminnum();
+        Getminnum30 gn = new Getminnum30();
         gn.GetLeastNumbers_Head(input, 4);
         gn.GetLeastNumbers_Solution(input, 8);
     }

@@ -11,7 +11,7 @@
  3. 如果第 i 位上的数字大于 x，则第 i 位上可能出现 x 的次数仅由更高位决定（若没有高位，视高位为 0），等于（更高位数字 + 1）X 当前位数的权重 10^(i-1)。
  *
  */
-public class NumOf1ToN {
+public class NumOf1ToN32 {
     public int NumberOf1Between1AndN_Solution(int n) {
         int x = 1, i = 1, sum = 0, num, numdown,tmp;
         int numup = n;
@@ -33,7 +33,7 @@ public class NumOf1ToN {
         return sum;
     }
     public static void main(String[] args){
-        NumOf1ToN n = new NumOf1ToN();
+        NumOf1ToN32 n = new NumOf1ToN32();
         System.out.println(n.NumberOf1Between1AndN_Solution(5));
         System.out.println(n.NumberOf1Between1AndN_Solution(10));
         System.out.println(n.NumberOf1Between1AndN_Solution(55));

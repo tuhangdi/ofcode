@@ -4,7 +4,7 @@
  * 输入一个数组, 求出这个数组中的逆序对的总数 P。并将 P 对 1000000007 取模的结果输出。 即输出 P%1000000007
  * 例如{7,5,6,4}中有5个逆序对，(7,6), (7,5), (7,4), (6,4) ,(5,4)。
  */
-public class Arraypairs {
+public class Arraypairs36 {
     private long count;
     public int InversePairs(int [] array) {
         if (array == null || array.length == 0) return 0;
@@ -45,7 +45,7 @@ public class Arraypairs {
     }
     public static void main(String[] args){
         int[] array = {1,2,3,7,6,5,0};
-        Arraypairs ap = new Arraypairs();
+        Arraypairs36 ap = new Arraypairs36();
         System.out.println(ap.InversePairs(array));
     }
 }

@@ -5,7 +5,7 @@
  * 要求时间复杂度为O(n)。
  * 例如输入的数组为{1，-2,3,10,-4,7,2，-5}，最大的子数组为{3,10，-4,7,2}。和为18。
  */
-public class SumOfSubarray {
+public class SumOfSubarray31 {
     public int FindGreatestSumOfSubArray(int[] array) {
         int sum = 0;
         int findsum = 0x80000000;  //- 2147483648，int 的最小值。;
@@ -52,7 +52,7 @@ public class SumOfSubarray {
 
     public static void main(String[] args){
         int [] array = {-1,-2,-3,-10};
-        SumOfSubarray ss = new SumOfSubarray();
+        SumOfSubarray31 ss = new SumOfSubarray31();
         ss.FindGreatestSumOfSubArray(array);
         ss.FindSum(array);
     }
