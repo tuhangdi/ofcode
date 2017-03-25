@@ -10,6 +10,9 @@ public class Stringtoint49 {
         int result = 0;
         boolean isPositive = true;
         if (strs[0] == '-') isPositive = false;
-        for (int i = 0; i < strs.length; i ++){
+        for (int i = 0; i < strs.length; i ++) {
+        }
+        return 0;
     }
+
 }
