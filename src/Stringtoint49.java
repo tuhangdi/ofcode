@@ -11,8 +11,15 @@ public class Stringtoint49 {
         boolean isPositive = true;
         if (strs[0] == '-') isPositive = false;
         for (int i = 0; i < strs.length; i ++) {
+           if(strs[i] == '+' || strs[i] == '-') continue;
+           if(strs[i]< '0' || strs[i] > '9') return 0;
+            result = result * 10 + strs[i] - '0';
         }
-        return 0;
+        return isPositive ?  result : result * -1;
     }
-
+    public static void main(String[] args){
+        Stringtoint49 st = new Stringtoint49();
+        String s = "-1a24";
+        System.out.println(st.StrToInt(s));
+    }
 }
