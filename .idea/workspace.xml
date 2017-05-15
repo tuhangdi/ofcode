@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07932cfe-5058-4abf-9499-1a38a6e8b7be" name="Default" comment="" />
+    <list default="true" id="07932cfe-5058-4abf-9499-1a38a6e8b7be" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/baidu/Main5.java" afterPath="$PROJECT_DIR$/src/baidu/Main5.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +41,8 @@
       <file leaf-file-name="Main5.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/baidu/Main5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="931">
+              <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -725,7 +728,7 @@
       <updated>1494568686791</updated>
       <workItem from="1494568707536" duration="9459000" />
       <workItem from="1494833899357" duration="3957000" />
-      <workItem from="1494842251671" duration="264000" />
+      <workItem from="1494842251671" duration="480000" />
     </task>
     <task id="LOCAL-00003" summary=".">
       <created>1494575598660</created>
@@ -773,7 +776,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18654000" />
+    <option name="totallyTimeSpent" value="18870000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1203,8 +1206,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baidu/Main5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="931">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding />
         </state>
       </provider>
