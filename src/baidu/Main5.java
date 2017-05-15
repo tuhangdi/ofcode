@@ -1,5 +1,7 @@
 package baidu;
 
+import java.util.Arrays;
+
 /**
  * Created by thd on 2017/5/12.
  * 度度熊最近对全排列特别感兴趣,对于1到n的一个排列,度度熊发现可以在中间根据大小关系插入合适的大于和小于符号(即 '>' 和 '<' )使其成为一个合法的不等式数列。
@@ -19,6 +21,24 @@ package baidu;
  */
 public class Main5 {
     public static void main(String[] args){
+        int[] array=new int[]{1,2,3,4,5,6};
+        permute(array,0);
+    }
+    public static void permute(int[] array,int start){
+        if(start==array.length){
 
+        }
+        else
+            for(int i=start;i<array.length;++i){
+                swap(array,start,i);  //  交换元素
+                permute(array,start+1);  //交换后，再进行全排列算法
+                swap(array,start,i);  //还原成原来的数组，便于下一次的全排列
+            }
+    }
+
+    private static void swap(int[] array,int s,int i){
+        int t=array[s];
+        array[s]=array[i];
+        array[i]=t;
     }
 }
