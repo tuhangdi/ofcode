@@ -1,5 +1,6 @@
 package wangyi;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -16,8 +17,11 @@ import java.util.Scanner;
  * 输出一个整数，表示最少需要处理的时间
  * <p>
  * 输入例子:
- * 5
- * 3072 3072 7168 3072 1024
+ 5
+ 3072 3072 7168 3072 1024
+ * <p>
+ * 10
+ * 1411072 2110464 1388544 2362368 1103872 59392 133120 1184768 1500160 1332224
  * <p>
  * 输出例子:
  * 9216
@@ -27,15 +31,17 @@ public class Main1 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] mission = new int[n];
+        int sum = 0;
+        int[] dp = new int[210000];
         for (int i = 0; i < n; i++) {
-            mission[i] = sc.nextInt();
+            mission[i] = sc.nextInt() / 1024;
+            sum += mission[i];
         }
-        for(int i = 1; i < (n+1)/2;i++){
-            int j = 0;
-            while(j < i){
-
-            }
+        for (int i = 0; i < n; i++) {
+            for (int j = sum / 2; j >= mission[i]; --j)
+                dp[j] = Math.max(dp[j], dp[j - mission[i]] + mission[i]);
         }
+        System.out.println((sum - dp[sum / 2]) * 1024);
 
     }
 }
