@@ -20,7 +20,9 @@ import java.util.Scanner;
  * 66
  */
 public class Main5 {
+
     private static int num;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
