@@ -27,6 +27,10 @@ import java.util.Scanner;
  * <p>
  * 输出例子:
  * 5
+ *
+ *
+ *
+ *  思路：动态规划好题。dp(i, j)表示考虑前i个砖块，两堆砖块的高度差为j的最大高度。用滚动数组优化下内存，注意下边界。
  */
 public class Main11 {
     public static void main(String[] args) {
