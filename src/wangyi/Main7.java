@@ -1,5 +1,9 @@
 package wangyi;
 
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
 /**
  * Created by thd on 2017/5/16.
  * [编程题] 集合
@@ -24,4 +28,19 @@ package wangyi;
  10
  */
 public class Main7 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int w = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int z = sc.nextInt();
+        Set<Double> set = new HashSet<Double>();
+        for (int p = w; p <= x;p++){
+            for(int q = y;q <=z;q++){
+                set.add(p*1.0/q);
+            }
+        }
+        System.out.println(set.size());
+    }
+
 }
