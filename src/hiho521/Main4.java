@@ -57,10 +57,12 @@ public class Main4 {
         Scanner sc = new Scanner(System.in);
         while(sc.hasNext()) {
             int n = sc.nextInt();
-            int[] num = new int[n];
+            int[] x = new int[n];
+            int[] y = new int[n];
             int np = 0;
             for (int i = 0; i < n; i++) {
-                num[i] = sc.nextInt();
+                x[i] = sc.nextInt();
+                y[i] = sc.nextInt();
             }
 
         }
