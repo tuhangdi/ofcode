@@ -2,7 +2,7 @@
 /**
  * Created by thd on 2017/2/24.
  */
-public class Rotatearray {
+public class Rotatearray8 {
     public int minNumberInRotateArray(int [] array) {
         int indexlo = 0;
         int indexhi = array.length - 1;
@@ -31,7 +31,7 @@ public class Rotatearray {
         int[] array2 = {1,1,1,0,1};
         int[] array3 = {1,0,1,1,1};
         int[] array4 = {7,8,9,1,2};
-        Rotatearray rt = new Rotatearray();
+        Rotatearray8 rt = new Rotatearray8();
         System.out.println(rt.minNumberInRotateArray(array1));
         System.out.println(rt.minNumberInRotateArray(array2));
         System.out.println(rt.minNumberInRotateArray(array3));
