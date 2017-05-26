@@ -2,7 +2,7 @@
 /**
  * Created by thd on 2017/2/24.
  */
-public class Fibonacci {
+public class Fibonacci9 {
     public int Fibonaccirecursion(int n) {
         if(n <= 0) return 0;
         if(n == 1) return 1;
@@ -24,7 +24,7 @@ public class Fibonacci {
     }
 
     public static void main(String[] args){
-        Fibonacci fb = new Fibonacci();
+        Fibonacci9 fb = new Fibonacci9();
         System.out.println(fb.Fibonaccirecursion(30));
         System.out.println(fb.Fibonacciloop(30));
     }
