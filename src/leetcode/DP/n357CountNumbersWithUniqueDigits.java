@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.DP;
 
 /**
  * Created by thd on 2017/6/1.
@@ -11,7 +11,7 @@ package leetcode;
  * 当n=1时因为只有一个数字，所以0-9都是答案．
  * 当n>=2时，最高位可以为1-9任意一个数字，之后各位可以选择的数字个数依次为9, 8, 7, 6...，上一位选一个下一位就少了一种选择．
  */
-public class CountNumbersWithUniqueDigits357 {
+public class n357CountNumbersWithUniqueDigits {
     public int countNumbersWithUniqueDigits(int n) {
         if (n == 1) return 10;
         if (n == 0) return 1;
@@ -25,7 +25,7 @@ public class CountNumbersWithUniqueDigits357 {
     }
 
     public static void main(String[] args) {
-        CountNumbersWithUniqueDigits357 c = new CountNumbersWithUniqueDigits357();
+        n357CountNumbersWithUniqueDigits c = new n357CountNumbersWithUniqueDigits();
         System.out.println(c.countNumbersWithUniqueDigits(3));
     }
 }

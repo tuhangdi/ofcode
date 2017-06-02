@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.DP;
 
 /**
  * Created by thd on 2017/6/1.
@@ -11,7 +11,7 @@ package leetcode;
  * 爬楼梯，可以爬1步或2步，有多少种爬到顶的方式。
  * 思路：斐波那契数列。。。。。
  */
-public class ClimbingStairs70 {
+public class n70ClimbingStairs {
     public int climbStairs(int n) {
         if (n == 1) return 1;
         if (n == 2) return 2;

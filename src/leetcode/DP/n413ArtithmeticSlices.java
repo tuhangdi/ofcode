@@ -1,6 +1,4 @@
-package leetcode;
-
-import java.util.ArrayList;
+package leetcode.DP;
 
 /**
  * Created by thd on 2017/6/1.
@@ -31,7 +29,7 @@ import java.util.ArrayList;
 
  return: 3, for 3 arithmetic slices in A: [1, 2, 3], [2, 3, 4] and [1, 2, 3, 4] itself.
  */
-public class ArtithmeticSlices413 {
+public class n413ArtithmeticSlices {
     public int numberOfArithmeticSlices(int[] A) {
         int add = 0;
         int count = 0;
@@ -47,7 +45,7 @@ public class ArtithmeticSlices413 {
 
     public static void main(String[] args) {
         int [] A = {1,2,3,8,9,10};
-        ArtithmeticSlices413 a  = new ArtithmeticSlices413();
+        n413ArtithmeticSlices a  = new n413ArtithmeticSlices();
         System.out.println(a.numberOfArithmeticSlices(A));
     }
 }

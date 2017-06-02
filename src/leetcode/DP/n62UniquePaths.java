@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.DP;
 
 /**
  * Created by thd on 2017/6/1.
@@ -13,7 +13,7 @@ package leetcode;
  * 对于格点(i,j)。由于只能从上格点(i-1,j)或左格点(i,j-1)到达，并且两者路径是不重复的
  * 因此path[i][j] = path[i-1][j]+path[i][j-1]
  */
-public class UniquePaths62 {
+public class n62UniquePaths {
 
     public int uniquePaths(int m, int n) {
         int[][] a = new int[m][n];
@@ -40,7 +40,7 @@ public class UniquePaths62 {
     }
 
     public static void main(String[] args) {
-        UniquePaths62 u = new UniquePaths62();
+        n62UniquePaths u = new n62UniquePaths();
         System.out.println(u.uniquePaths(3, 7));
         System.out.println(u.uniqurPathsOne(3, 7));
     }
