@@ -66,8 +66,10 @@ public class Main3 {
         Scanner sc = new Scanner(System.in);
         while(sc.hasNext()){
             int n = sc.nextInt();
-            ArrayList<Integer> iNum = new ArrayList();
+            ArrayList<Integer> iList = new ArrayList<>();
+            ArrayList<Integer> oList = new ArrayList<>();
             int oNum = 0;
+            int iNum = 0;
             int questNum = 0;
             int result = -1;
             boolean flag = false;
@@ -78,14 +80,21 @@ public class Main3 {
                         questNum ++;
                         break;
                     case "I" :
-                        iNum.add(sc.nextInt());
+                        iNum = sc.nextInt();
                         break;
                     case "O" :
                         oNum = sc.nextInt();
                         break;
                 }
-                if (!iNum.contains(oNum) && oNum != 0) {
-                    if  (questNum != 0) questNum --;
+                if (iList.contains(oNum)){
+                    iList.remove(oNum);
+                    oList.remove(oNum);
+                }
+                else if (!iList.contains(oNum) && oNum != 0) {
+                    if  (questNum != 0) {
+                        questNum --;
+                        oNum = 0;
+                    }
                     else if (questNum == 0 && flag == false) {
                         result = i + 1;
                         flag = true;
