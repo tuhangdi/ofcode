@@ -1,5 +1,6 @@
 package CodeM;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -65,32 +66,42 @@ public class Main3 {
         Scanner sc = new Scanner(System.in);
         while(sc.hasNext()){
             int n = sc.nextInt();
-            long iNum = 0;
-            long oNum = 0;
-            long questNum = 0;
-            long result = -1;
+            ArrayList<Integer> iList = new ArrayList<>();
+            ArrayList<Integer> oList = new ArrayList<>();
+            int oNum = 0;
+            int iNum = 0;
+            int questNum = 0;
+            int result = -1;
             boolean flag = false;
             for (int i = 0; i < n; i++) {
                 String s = sc.next();
                 switch (s){
                     case "?" :
-                        questNum = i + 1;
+                        questNum ++;
                         break;
                     case "I" :
-                        iNum += sc.nextInt();
+                        iNum = sc.nextInt();
                         break;
                     case "O" :
-                        oNum += sc.nextInt();
+                        oNum = sc.nextInt();
                         break;
                 }
-
-                if (questNum == 0 && iNum < oNum && flag == false) {
-                    result = i + 1;
-                    flag = true;
+                if (iList.contains(oNum)){
+                    iList.remove(oNum);
+                    oList.remove(oNum);
+                }
+                else if (!iList.contains(oNum) && oNum != 0) {
+                    if  (questNum != 0) {
+                        questNum --;
+                        oNum = 0;
+                    }
+                    else if (questNum == 0 && flag == false) {
+                        result = i + 1;
+                        flag = true;
+                    }
                 }
             }
-            if (result == -1 && iNum > oNum && questNum != n) result = n;
-            if (n == 1) result = 1;
+
             System.out.println(result);
         }
     }
