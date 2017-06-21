@@ -30,7 +30,7 @@ public class n290WordPattern {
         if (pattern.length() != strs.length) return false;
         char[] p = pattern.toCharArray();
         for (int i = 0; i < p.length; i++) {
-            if (!Objects.equals(m.put(p[i], i), m.put(strs[i], i)))//map.put()，如果第二次put进同样的key不同value，返回的值是被挤掉的那个value！不然就是null
+            if (!Objects.equals(m.put(p[i], i), m.put(strs[i], i)))//map.put()，如果第二次put进同样的key不同value，返回的值是被挤掉的那个value！不然就是null。不能用!= 比较，否在在超过127个元素后就会出错
                 return false;
         }
         return true;
