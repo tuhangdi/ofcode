@@ -46,6 +46,7 @@ package leetcode.DFS;
 
 public class n547FriendCircles
 {
+    //quick-find算法
     public int findCircleNum(int[][] M) {
         int[] id = new int [M.length];
         int count = M.length;
@@ -54,7 +55,7 @@ public class n547FriendCircles
         }
         for (int i = 0; i < M.length; i++) {
             for (int j = i + 1; j < M.length; j++) {
-                if (M[i][j] == 1) {
+                if (M[i][j] == 1) {   //union
                     int pRoot = find(id, i);
                     int qRoot = find(id, j);
                     if (pRoot != qRoot) {
@@ -68,7 +69,6 @@ public class n547FriendCircles
     }
     private int find(int[] id, int p) {
         while (p != id[p]){
-            id[p] = id[id[p]];
             p = id[p];
         }
         return p;

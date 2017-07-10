@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e1be09e-617c-4b37-9c22-b10d78d07473" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/DFS/n547FriendCircles.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/DFS/n547FriendCircles.java" afterPath="$PROJECT_DIR$/src/leetcode/DFS/n547FriendCircles.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="n547FriendCircles.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/DFS/n547FriendCircles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+            <state relative-caret-position="333">
+              <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -142,7 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,7 +189,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -739,7 +739,9 @@
       <workItem from="1499154485712" duration="6079000" />
       <workItem from="1499258172320" duration="38000" />
       <workItem from="1499258354952" duration="3622000" />
-      <workItem from="1499321732319" duration="645000" />
+      <workItem from="1499321732319" duration="1027000" />
+      <workItem from="1499687098540" duration="2387000" />
+      <workItem from="1499693226456" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1495633539988</created>
@@ -867,11 +869,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499172999602</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary=".">
+      <created>1499329427136</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1499329427136</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96573000" />
+    <option name="totallyTimeSpent" value="99348000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -883,7 +892,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -923,9 +932,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="." />
     <MESSAGE value="Merge branch 'master' of https://github.com/tuhangdi/ofcode&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/tuhangdi/ofcode&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1371,8 +1380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/DFS/n547FriendCircles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        <state relative-caret-position="333">
+          <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
           <folding />
         </state>
       </provider>
