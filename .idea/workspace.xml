@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="3e1be09e-617c-4b37-9c22-b10d78d07473" name="Default" comment="" />
-=======
     <list default="true" id="3e1be09e-617c-4b37-9c22-b10d78d07473" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/String/n345ReverseVowelsOfAString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/String/n583DeleteOperationForTwoStrings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/String/n72EditDistance.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw0706/Main3.java" afterPath="$PROJECT_DIR$/src/hw0706/Main3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/DFS/n547FriendCircles.java" afterPath="$PROJECT_DIR$/src/leetcode/DFS/n547FriendCircles.java" />
     </list>
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,100 +20,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file leaf-file-name="n547FriendCircles.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="n547FriendCircles.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/DFS/n547FriendCircles.java">
-=======
-<<<<<<< HEAD
-      <file leaf-file-name="n508MostFrequentSubtreeSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/n508MostFrequentSubtreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="n572SubtreeOfAnotherTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/n572SubtreeOfAnotherTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="60" lean-forward="false" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+            <state relative-caret-position="470">
+              <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="n104MaximumDepthOfBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/n104MaximumDepthOfBinaryTree.java">
+      <file leaf-file-name="Main3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hw0706/Main3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="702">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="n111MinimumDepthOfBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/n111MinimumDepthOfBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="n383RansomNote.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/String/n383RansomNote.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="2" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="28" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="n539MinimumTimeDifference.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/String/n539MinimumTimeDifference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="46" column="60" lean-forward="false" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
-      <file leaf-file-name="n345ReverseVowelsOfAString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/String/n345ReverseVowelsOfAString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="n583DeleteOperationForTwoStrings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/String/n583DeleteOperationForTwoStrings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="n72EditDistance.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/String/n72EditDistance.java">
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-              <folding />
->>>>>>> origin/master
             </state>
           </provider>
         </entry>
@@ -143,13 +60,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/offer2/Sol4.java" />
         <option value="$PROJECT_DIR$/src/offer2/ListNode.java" />
         <option value="$PROJECT_DIR$/src/offer2/Sol5.java" />
         <option value="$PROJECT_DIR$/src/offer2/TreeNode.java" />
-=======
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
         <option value="$PROJECT_DIR$/src/offer2/Sol6.java" />
         <option value="$PROJECT_DIR$/src/offer2/Sol14.java" />
         <option value="$PROJECT_DIR$/src/offer2/Sol15.java" />
@@ -190,21 +103,14 @@
         <option value="$PROJECT_DIR$/src/leetcode/Tree/n337HouseRobberIII.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/n500KeyboardRow.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/n290WordPattern.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/HashTable/n463IslandPerimeter.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/HashTable/n136SingleNumber.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/HashTable/n137SingleNumberII.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/HashTable/n260SingleNumberIII.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/HashTable/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/HashTable/n508MostFrequentSubtreeSum.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/Tree/n572SubtreeOfAnotherTree.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/Tree/n104MaximumDepthOfBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/Tree/n111MinimumDepthOfBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/String/n383RansomNote.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/HashTable/test.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/HashTable/Test.java" />
         <option value="$PROJECT_DIR$/src/leetcode/String/n539MinimumTimeDifference.java" />
         <option value="$PROJECT_DIR$/src/leetcode/String/n345ReverseVowelsOfAString.java" />
         <option value="$PROJECT_DIR$/src/leetcode/String/n583DeleteOperationForTwoStrings.java" />
         <option value="$PROJECT_DIR$/src/leetcode/String/n72EditDistance.java" />
         <option value="$PROJECT_DIR$/src/leetcode/DFS/n547FriendCircles.java" />
+        <option value="$PROJECT_DIR$/src/hw0706/Main3.java" />
       </list>
     </option>
   </component>
@@ -217,13 +123,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-<<<<<<< HEAD
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
-=======
     <option name="width" value="1382" />
     <option name="height" value="744" />
->>>>>>> origin/master
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -243,28 +144,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ofcode" />
+              <option name="myItemId" value="offer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ofcode" />
+              <option name="myItemId" value="offer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ofcode" />
+              <option name="myItemId" value="offer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ofcode" />
+              <option name="myItemId" value="offer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -274,11 +173,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ofcode" />
+              <option name="myItemId" value="offer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ofcode" />
+              <option name="myItemId" value="offer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -286,63 +185,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
+              <option name="myItemId" value="hw0706" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-<<<<<<< HEAD
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ofcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ofcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="String" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ofcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ofcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-=======
->>>>>>> origin/master
         </subPane>
       </pane>
-<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
-=======
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/thd/ofcode/src/leetcode/DP/n343IntegerBreak.java" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -356,80 +213,15 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Application.n383RansomNote">
-    <configuration default="false" name="n463IslandPerimeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-=======
-  <component name="RunManager" selected="Application.n72EditDistance">
-    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
->>>>>>> origin/master
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="leetcode.HashTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="leetcode.HashTable.n463IslandPerimeter" />
-=======
-      <option name="MAIN_CLASS_NAME" value="leetcode.HashTable.Test" />
->>>>>>> origin/master
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="offer" />
-      <envs />
-      <method />
-    </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="n136SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-=======
-    <configuration default="false" name="n539MinimumTimeDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
->>>>>>> origin/master
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="leetcode.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="leetcode.HashTable.n136SingleNumber" />
-=======
-      <option name="MAIN_CLASS_NAME" value="leetcode.String.n539MinimumTimeDifference" />
->>>>>>> origin/master
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="offer" />
-      <envs />
-      <method />
-    </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="n137SingleNumberII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-=======
+  <component name="RunManager" selected="Application.Main3">
     <configuration default="false" name="n345ReverseVowelsOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
->>>>>>> origin/master
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetcode.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="leetcode.HashTable.n137SingleNumberII" />
-=======
       <option name="MAIN_CLASS_NAME" value="leetcode.String.n345ReverseVowelsOfAString" />
->>>>>>> origin/master
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -442,22 +234,14 @@
       <envs />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="n260SingleNumberIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-=======
     <configuration default="false" name="n583DeleteOperationForTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
->>>>>>> origin/master
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetcode.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="leetcode.HashTable.n260SingleNumberIII" />
-=======
       <option name="MAIN_CLASS_NAME" value="leetcode.String.n583DeleteOperationForTwoStrings" />
->>>>>>> origin/master
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -470,22 +254,54 @@
       <envs />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="n383RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-=======
     <configuration default="false" name="n72EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
->>>>>>> origin/master
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetcode.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="leetcode.String.n383RansomNote" />
-=======
       <option name="MAIN_CLASS_NAME" value="leetcode.String.n72EditDistance" />
->>>>>>> origin/master
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="offer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="n547FriendCircles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode.DFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode.DFS.n547FriendCircles" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="offer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="hw0706.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="hw0706.Main3" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -886,35 +702,19 @@
       <method />
     </configuration>
     <list size="5">
-<<<<<<< HEAD
-      <item index="0" class="java.lang.String" itemvalue="Application.n463IslandPerimeter" />
-      <item index="1" class="java.lang.String" itemvalue="Application.n136SingleNumber" />
-      <item index="2" class="java.lang.String" itemvalue="Application.n137SingleNumberII" />
-      <item index="3" class="java.lang.String" itemvalue="Application.n260SingleNumberIII" />
-      <item index="4" class="java.lang.String" itemvalue="Application.n383RansomNote" />
+      <item index="0" class="java.lang.String" itemvalue="Application.n345ReverseVowelsOfAString" />
+      <item index="1" class="java.lang.String" itemvalue="Application.n583DeleteOperationForTwoStrings" />
+      <item index="2" class="java.lang.String" itemvalue="Application.n72EditDistance" />
+      <item index="3" class="java.lang.String" itemvalue="Application.n547FriendCircles" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.n383RansomNote" />
-        <item index="1" class="java.lang.String" itemvalue="Application.n260SingleNumberIII" />
-        <item index="2" class="java.lang.String" itemvalue="Application.n137SingleNumberII" />
-        <item index="3" class="java.lang.String" itemvalue="Application.n136SingleNumber" />
-        <item index="4" class="java.lang.String" itemvalue="Application.n463IslandPerimeter" />
-=======
-      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.n539MinimumTimeDifference" />
-      <item index="2" class="java.lang.String" itemvalue="Application.n345ReverseVowelsOfAString" />
-      <item index="3" class="java.lang.String" itemvalue="Application.n583DeleteOperationForTwoStrings" />
-      <item index="4" class="java.lang.String" itemvalue="Application.n72EditDistance" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.n72EditDistance" />
-        <item index="1" class="java.lang.String" itemvalue="Application.n583DeleteOperationForTwoStrings" />
-        <item index="2" class="java.lang.String" itemvalue="Application.n345ReverseVowelsOfAString" />
-        <item index="3" class="java.lang.String" itemvalue="Application.n539MinimumTimeDifference" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
->>>>>>> origin/master
+        <item index="0" class="java.lang.String" itemvalue="Application.Main3" />
+        <item index="1" class="java.lang.String" itemvalue="Application.n547FriendCircles" />
+        <item index="2" class="java.lang.String" itemvalue="Application.n72EditDistance" />
+        <item index="3" class="java.lang.String" itemvalue="Application.n583DeleteOperationForTwoStrings" />
+        <item index="4" class="java.lang.String" itemvalue="Application.n345ReverseVowelsOfAString" />
       </list>
     </recent_temporary>
   </component>
@@ -936,24 +736,15 @@
       <workItem from="1497267188006" duration="2393000" />
       <workItem from="1497526316451" duration="7657000" />
       <workItem from="1497866234137" duration="19857000" />
-<<<<<<< HEAD
-      <workItem from="1498561902537" duration="16529000" />
-      <workItem from="1499338919231" duration="96000" />
-=======
       <workItem from="1498790514934" duration="4013000" />
       <workItem from="1498909196756" duration="5194000" />
-<<<<<<< HEAD
       <workItem from="1499154485712" duration="6079000" />
       <workItem from="1499258172320" duration="38000" />
       <workItem from="1499258354952" duration="3622000" />
       <workItem from="1499321732319" duration="1027000" />
       <workItem from="1499687098540" duration="2387000" />
       <workItem from="1499693226456" duration="6000" />
-      <workItem from="1499772096523" duration="891000" />
-=======
-      <workItem from="1499154485712" duration="5282000" />
->>>>>>> origin/master
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
+      <workItem from="1499772096523" duration="6944000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1495633539988</created>
@@ -1053,51 +844,13 @@
       <option name="project" value="LOCAL" />
       <updated>1497966141773</updated>
     </task>
-    <task id="LOCAL-00015" summary=".">
-      <created>1498053184437</created>
+    <task id="LOCAL-00015" summary="Merge branch 'master' of https://github.com/tuhangdi/ofcode&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1498790689296</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1498053184437</updated>
+      <updated>1498790689296</updated>
     </task>
-    <task id="LOCAL-00016" summary=".">
-      <created>1498092246426</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1498092246426</updated>
-    </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00017" summary=".">
-      <created>1498735675145</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1498735675145</updated>
-    </task>
-    <task id="LOCAL-00018" summary=".">
-      <created>1498741483013</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1498741483013</updated>
-    </task>
-    <task id="LOCAL-00019" summary=".">
-      <created>1498743382151</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1498743382151</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
-    <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96208000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
-=======
     <task id="LOCAL-00016" summary="Merge branch 'master' of https://github.com/tuhangdi/ofcode&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <created>1498811611007</created>
       <option name="number" value="00016" />
@@ -1137,77 +890,38 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100274000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="106327000" />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
-=======
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
->>>>>>> origin/master
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20977917" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29934642" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-=======
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26971608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26971608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> origin/master
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26281112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-=======
-<<<<<<< HEAD
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25069445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22986823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
->>>>>>> origin/master
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14901961" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20977917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
->>>>>>> origin/master
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3564669" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-<<<<<<< HEAD
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1215,14 +929,47 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-<<<<<<< HEAD
     <MESSAGE value="Merge branch 'master' of https://github.com/tuhangdi/ofcode&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-=======
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
     <MESSAGE value="." />
     <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
@@ -1301,27 +1048,10 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-<<<<<<< HEAD
-          <url>file://$PROJECT_DIR$/src/leetcode/HashTable/n260SingleNumberIII.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/String/n383RansomNote.java</url>
-          <line>21</line>
-=======
           <url>file://$PROJECT_DIR$/src/leetcode/String/n539MinimumTimeDifference.java</url>
           <line>20</line>
->>>>>>> origin/master
           <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/String/n383RansomNote.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/String/n345ReverseVowelsOfAString.java</url>
@@ -1329,12 +1059,20 @@
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/DFS/n547FriendCircles.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hw0706/Main3.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
-<<<<<<< HEAD
-      <option name="time" value="23" />
-=======
-      <option name="time" value="22" />
->>>>>>> origin/master
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1343,33 +1081,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/src/offer2/Sol10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
-    <entry file="file://$PROJECT_DIR$/src/offer2/Sol11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer2/Sol14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> origin/master
     <entry file="file://$PROJECT_DIR$/src/offer2/Sol15.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -1456,13 +1167,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="298" column="19" lean-forward="false" selection-start-line="298" selection-start-column="19" selection-end-line="298" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/CodeM/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -1526,13 +1231,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/Comparator.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/Array/n565ArrayNesting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1608,10 +1307,43 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/n.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/String/n344ReverseString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/n617MergeTwoBinaryTrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="47" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/n337HouseRobberIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/n500KeyboardRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/n290WordPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1622,129 +1354,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/String/n344ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/n290WordPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/n500KeyboardRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/n337HouseRobberIII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/n617MergeTwoBinaryTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="47" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/n463IslandPerimeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/n260SingleNumberIII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/n137SingleNumberII.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="69">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
-=======
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
->>>>>>> origin/master
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/n136SingleNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="180">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/n508MostFrequentSubtreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/n572SubtreeOfAnotherTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="864">
-          <caret line="48" column="60" lean-forward="false" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
-          <folding />
-=======
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
->>>>>>> origin/master
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/n104MaximumDepthOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="288">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-=======
-        <state relative-caret-position="180">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
->>>>>>> origin/master
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Tree/n111MinimumDepthOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="162">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-=======
         <state relative-caret-position="364">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
@@ -1755,50 +1373,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
->>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="657" column="0" lean-forward="false" selection-start-line="657" selection-start-column="0" selection-end-line="657" selection-end-column="0" />
-=======
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/leetcode/String/n383RansomNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="2" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="28" selection-end-column="5" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/leetcode/String/n345ReverseVowelsOfAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
->>>>>>> origin/master
-          <folding />
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/String/n72EditDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="42">
           <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-=======
-<<<<<<< HEAD
-        <state relative-caret-position="677">
-          <caret line="46" column="60" lean-forward="false" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="102">
-          <caret line="657" column="0" lean-forward="false" selection-start-line="657" selection-start-column="0" selection-end-line="657" selection-end-column="0" />
-          <folding />
->>>>>>> d2f7741658393c9ccfd690cd52c625cf68926783
         </state>
       </provider>
     </entry>
@@ -1817,12 +1406,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/DFS/n547FriendCircles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        <state relative-caret-position="470">
+          <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
           <folding />
->>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="337" column="0" lean-forward="false" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw0706/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
