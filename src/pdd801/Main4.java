@@ -1,90 +1,89 @@
 package pdd801;
-
-import java.awt.*;
 import java.util.*;
-
 /**
  * Created by thd on 2017/8/1
  */
 public class Main4 {
-    static class point {
+    private static char[][] map;
+    private static int[][][] use;
+    private static int m, n, sx, sy, ex, ey;
+    private static int[][] next = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
+
+    static class Step {
         int x;
         int y;
-        public point(int x, int y) {
+        int k;
+
+
+        public Step(int x, int y, int k) {
             this.x = x;
             this.y = y;
+            this.k = k;
         }
     }
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int m = sc.nextInt();
-        int n = sc.nextInt();
-        sc.nextLine();
-        int startX = 0,startY =0,endX=0,endY=0;
-        char [][] arr = new char[m][n];
-        String[] row = new String[m];
+        Scanner in = new Scanner(System.in);
+        int tm = in.nextInt();
+        int tn = in.nextInt();
+        in.nextLine();
+        m = tm;
+        n = tn;
+        map = new char[m][n];
+        String t;
         for (int i = 0; i < m; i++) {
-            row[i] = sc.nextLine();
-            //System.out.println(row[i]);
+            t = in.nextLine();
+            for (int j = 0; j < n; j++) {
+                map[i][j] = t.charAt(j);
+                if (map[i][j] == '2') {
+                    sx = i;
+                    sy = j;
+                }
+                if (map[i][j] == '3') {
+                    ex = i;
+                    ey = j;
+                }
+            }
         }
+        use = new int[m][n][1400];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                arr[i][j] = row[i].charAt(j);
-                if (arr[i][j] == '2'){
-                    startX = i;
-                    startY = j;
+                for (int k = 0; k < 1400; k++) {
+                    use[i][j][k] = 0xff;
                 }
-                if (arr[i][j] == '3'){
-                    endX = i;
-                    endY = j;
-                }
+
             }
         }
-        Set<Character> key = new HashSet<>();
-        Queue<point> queue = new LinkedList<>();
-        point start = new point(startX,startY);
-        int res = 0;
-        queue.add(start);
-        int[][] next = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
-
-        while (!queue.isEmpty()){
-            int size = queue.size();
-
-            for (int k = 0 ; k < size ;k++) {
-                point cur = queue.poll();
-                if (cur.x == endX && cur.y == endY) {
-                    System.out.println(res);
-                    return;
-                }
-                for (int i = 0; i < 4; i++) {
-                    int tx = cur.x + next[i][0];
-                    int ty = cur.y + next[i][1];
-                    if (tx >= 0 && tx < m && ty >= 0 && ty < n && arr[tx][ty] != '0') {
-                        if (arr[tx][ty] < 'A' || arr[tx][ty] > 'Z') {
-                            point nn = new point(tx, ty);
-                    //        Set<Character> keys = new HashSet<>(key);
-                            if (arr[tx][ty] >= 'a' && arr[tx][ty] <= 'z') key.add(Character.toUpperCase(arr[tx][ty]));
-                      //      key = keys;
-                            System.out.println("("+tx+","+ty+")");
-                            queue.add(nn);
-
-                        } else {
-                            if (key.contains(arr[tx][ty])) {
-                                point nn = new point(tx, ty);
-                          //      Set<Character> keys = new HashSet<>(key);
-                            //    key = keys;
-                                queue.add(nn);
-                                System.out.println("("+tx+","+ty+")");
-                            }
-                        }
-                    }
-                }
-            }
-
-
-            res++;
-
-        }
+        System.out.println(bfs());
     }
 
+    public static int bfs() {
+
+        Step start = new Step(sx, sy, 0);
+        Queue<Step> queue = new LinkedList<>();
+        use[start.x][start.y][start.k] = 0;
+        queue.add(start);
+        while (!queue.isEmpty()) {
+            Step cur = queue.poll();
+            if (cur.x == ex && cur.y == ey) return use[cur.x][cur.y][cur.k];
+            for (int i = 0; i < 4; i++) {
+                Step k = new Step(cur.x + next[i][0], cur.y + next[i][1], cur.k);
+                //int tx = cur.x + next[i][0];
+                //int ty = cur.y + next[i][1];
+                if(k.x<0||k.x>=n||k.y<0||k.y>=m||map[k.x][k.y]=='0') continue;
+                if(map[k.x][k.y]>='a'&&map[k.x][k.y]<='z') {
+                    k.k = k.k|(1<<(map[k.x][k.y]-'a'));
+                }
+                if(map[k.x][k.y]>='A'&&map[k.x][k.y]<='Z') {
+                    int p = k.k&(1<<(map[k.x][k.y]-'A'));
+                    if(p==0) continue;
+                }
+                if(use[k.x][k.y][k.k]==-1||use[k.x][k.y][k.k]>use[cur.x][cur.y][cur.k]+1) {
+                    use[k.x][k.y][k.k]=use[cur.x][cur.y][cur.k]+1;
+                    queue.add(k);
+                }
+            }
+        }
+        return 0;
+    }
 }
