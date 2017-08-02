@@ -1,5 +1,7 @@
 package pdd801;
+
 import java.util.*;
+
 /**
  * Created by thd on 2017/8/1
  */
@@ -70,16 +72,16 @@ public class Main4 {
                 Step k = new Step(cur.x + next[i][0], cur.y + next[i][1], cur.k);
                 //int tx = cur.x + next[i][0];
                 //int ty = cur.y + next[i][1];
-                if(k.x<0||k.x>=n||k.y<0||k.y>=m||map[k.x][k.y]=='0') continue;
-                if(map[k.x][k.y]>='a'&&map[k.x][k.y]<='z') {
-                    k.k = k.k|(1<<(map[k.x][k.y]-'a'));
+                if (k.x < 0 || k.x >= n || k.y < 0 || k.y >= m || map[k.x][k.y] == '0') continue;
+                if (map[k.x][k.y] >= 'a' && map[k.x][k.y] <= 'z') {
+                    k.k = k.k | (1 << (map[k.x][k.y] - 'a'));
                 }
-                if(map[k.x][k.y]>='A'&&map[k.x][k.y]<='Z') {
-                    int p = k.k&(1<<(map[k.x][k.y]-'A'));
-                    if(p==0) continue;
+                if (map[k.x][k.y] >= 'A' && map[k.x][k.y] <= 'Z') {
+                    int p = k.k & (1 << (map[k.x][k.y] - 'A'));
+                    if (p == 0) continue;
                 }
-                if(use[k.x][k.y][k.k]==-1||use[k.x][k.y][k.k]>use[cur.x][cur.y][cur.k]+1) {
-                    use[k.x][k.y][k.k]=use[cur.x][cur.y][cur.k]+1;
+                if (use[k.x][k.y][k.k] == -1 || use[k.x][k.y][k.k] > use[cur.x][cur.y][cur.k] + 1) {
+                    use[k.x][k.y][k.k] = use[cur.x][cur.y][cur.k] + 1;
                     queue.add(k);
                 }
             }

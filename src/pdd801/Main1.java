@@ -1,6 +1,5 @@
 package pdd801;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -8,19 +7,47 @@ import java.util.Scanner;
  */
 public class Main1 {
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
-        int n = sc.nextInt();
-        long [] nums= new long[n];
-        for (int i = 0; i < n; i++) {
-            nums[i] = sc.nextLong();
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()) {
+            int n = scanner.nextInt();
+            scanner.nextLine();
+            long Max1 = 1;
+            long Max2 = 1;
+            long Max3 = 1;
+            long Min1 = 1;
+            long Min2 = 1;
+            for (int i = 0; i < n; i++) {
+                long num = scanner.nextLong();
+                if (num > 0) {
+                    if (num > Max1) {
+                        Max3 = Max2;
+                        Max2 = Max1;
+                        Max1 = num;
+                        continue;
+                    } else if (num > Max2) {
+                        Max3 = Max2;
+                        Max2 = num;
+                    } else if (num > Max3) {
+                        Max3 = num;
+                    }
+                } else {
+                    if (num < Min1) {
+                        Min2 = Min1;
+                        Min1 = num;
+                    } else if (num < Min2) {
+                        Min2 = num;
+                    }
+                }
+            }
+            if (Min1 != 1 || Min2 != 1) {
+                if (Min1 * Min2 < Max2 * Max3) {
+                    System.out.println(Max2 * Max3 * Max1);
+                } else {
+                    System.out.println(Min1 * Min2 * Max1);
+                }
+            } else {
+                System.out.println(Max2 * Max3 * Max1);
+            }
         }
-        Arrays.sort(nums);
-        long res1 = 1;
-        long res2 = 1;
-        for (int i = nums.length - 1; i > nums.length - 4; i--) {
-            res1 *= nums[i];
-        }
-        res2 = nums[0] * nums[1] * nums[nums.length - 1];
-        System.out.println(Math.max(res1, res2));
     }
 }
