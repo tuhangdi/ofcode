@@ -45,10 +45,10 @@ public class Main4 {
                 }
             }
         }
-        use = new int[m][n][1400];
+        use = new int[m][n][1024];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                for (int k = 0; k < 1400; k++) {
+                for (int k = 0; k < 1024; k++) {
                     use[i][j][k] = 0xff;
                 }
 
@@ -84,6 +84,6 @@ public class Main4 {
                 }
             }
         }
-        return 0;
+        return -1;
     }
 }
