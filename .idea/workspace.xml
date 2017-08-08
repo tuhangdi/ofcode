@@ -1,24 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e1be09e-617c-4b37-9c22-b10d78d07473" name="Default" comment=".">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z718/Problem_01_ParenthesesProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z718/Problem_02_LongestSubarrayLessSumAwesomeSolution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z718/Problem_02_LongestSumSubArrayLength.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z718/Problem_02_LongestSumSubArrayLengthInPositiveArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z718/Problem_03_CardsInLine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z720/MountainsAndFlame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z724/ConvertStringToIP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z724/Split4Parts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z731/Problem_01_FindMinKNums.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z731/Problem_02_KMPAlgorithm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z807/Problem_01_FindKthMinNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z807/Problem_01_FindUpMedian.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z807/Problem_02_IsDeformation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z807/Problem_03_IsRotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z807/Problem_04_CompleteTreeNodeNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/aZuo/z807/Problem_05_ManacherAlgorithm.java" />
+    <list default="true" id="3e1be09e-617c-4b37-9c22-b10d78d07473" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Addwithout47.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Addwithout47.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Alibabatest.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Alibabatest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arraypairs36.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Arraypairs36.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrayprint.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Arrayprint.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Binarytree.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Binarytree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Complexlistcopy.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Complexlistcopy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Continuous44.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Continuous44.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Dp.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Dp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Dp2.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Dp2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Duplicate51.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Duplicate51.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fibonacci9.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Fibonacci9.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FindNum40.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/FindNum40.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FindSequence41_2.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/FindSequence41_2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Findcode37.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Findcode37.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Findnode.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Findnode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Findpath.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Findpath.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Findsum41_1.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Findsum41_1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Firstchar35.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Firstchar35.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Getminnum30.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Getminnum30.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/HalfNum29.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/HalfNum29.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Jump.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Jump.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Jump2.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Jump2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Kmp.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Kmp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LastNum45.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/LastNum45.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeftRotate42_1.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/LeftRotate42_1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Match53.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Match53.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Matrix.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Matrix.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Mergelist.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Mergelist.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Multiply52.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Multiply52.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/NumOf1ToN32.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/NumOf1ToN32.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/NumOfk38.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/NumOfk38.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Numberof1.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Numberof1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Poporder.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Poporder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Powerfloat.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Powerfloat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/PrintMin33.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/PrintMin33.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/PrintString.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/PrintString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Printtree.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Printtree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Quicksort.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Quicksort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/RecCover.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/RecCover.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Reorder.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Reorder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Replacespace.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Replacespace.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Reverselist.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Reverselist.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Reverseword42.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Reverseword42.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Rotatearray8.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Rotatearray8.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sequence.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Sequence.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Stackmin.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Stackmin.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Stacktolist.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Stacktolist.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Stringtoint49.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Stringtoint49.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Subtree.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Subtree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SumOfSubarray31.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/SumOfSubarray31.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SumofN43.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/SumofN43.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sumwithout46.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Sumwithout46.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Treedep39_1.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Treedep39_1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Treedep39_2.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Treedep39_2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Treetolist.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Treetolist.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/UglyNumber34.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/UglyNumber34.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/isNum54.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/isNum54.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/mirrortree.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/mirrortree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/String/n567PermutationInString.java" />
         <option value="$PROJECT_DIR$/src/leetcode/String/n438FindAllAnagramsInAString.java" />
         <option value="$PROJECT_DIR$/src/leetcode/String/n632SmallestRange.java" />
         <option value="$PROJECT_DIR$/src/leetcode/String/n434NumberOfSegmentsInAString.java" />
@@ -114,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/aZuo/z807/Problem_02_IsDeformation.java" />
         <option value="$PROJECT_DIR$/src/aZuo/z807/Problem_01_FindUpMedian.java" />
         <option value="$PROJECT_DIR$/src/aZuo/z807/Problem_01_FindKthMinNumber.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Continuous44.java" />
       </list>
     </option>
   </component>
@@ -163,42 +205,7 @@
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
               <item name="offer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aZuo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aZuo" type="462c0819:PsiDirectoryNode" />
-              <item name="z718" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aZuo" type="462c0819:PsiDirectoryNode" />
-              <item name="z720" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aZuo" type="462c0819:PsiDirectoryNode" />
-              <item name="z724" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aZuo" type="462c0819:PsiDirectoryNode" />
-              <item name="z731" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aZuo" type="462c0819:PsiDirectoryNode" />
-              <item name="z807" type="462c0819:PsiDirectoryNode" />
+              <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -772,7 +779,7 @@
       <workItem from="1501745055646" duration="594000" />
       <workItem from="1501898434400" duration="595000" />
       <workItem from="1502087105238" duration="757000" />
-      <workItem from="1502177768920" duration="1707000" />
+      <workItem from="1502177768920" duration="1864000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1495633539988</created>
@@ -1019,11 +1026,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501681897347</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary=".">
+      <created>1502181086857</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1502181086857</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200680000" />
+    <option name="totallyTimeSpent" value="200837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1326,49 +1340,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/String/n438FindAllAnagramsInAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="583" column="0" lean-forward="true" selection-start-line="583" selection-start-column="0" selection-end-line="583" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/String/n434NumberOfSegmentsInAString.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Array/n229MajorityElementII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/String/n17LetterCombinationsOfAPhoneNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="51" lean-forward="false" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Array/n628MaximumProductOfThreeNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/String/n632SmallestRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/String/n459RepeatedSubstringPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1559,7 +1530,7 @@
         <state relative-caret-position="293">
           <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1569,7 +1540,7 @@
         <state relative-caret-position="40">
           <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1690,6 +1661,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Continuous44.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Complexlistcopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Binarytree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Arrayprint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Arraypairs36.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Alibabatest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Addwithout47.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
