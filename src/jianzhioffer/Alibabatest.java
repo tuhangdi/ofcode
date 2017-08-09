@@ -2,6 +2,7 @@ package jianzhioffer;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Created by thd on 2017/3/15.
@@ -11,7 +12,6 @@ import java.util.Scanner;
  */
 public class Alibabatest {
     public static void main(String[] args) {
-
         ArrayList<Integer> inputs = new ArrayList<Integer>();
         Scanner in = new Scanner(System.in);
         String line = in.nextLine();
