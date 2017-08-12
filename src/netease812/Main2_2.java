@@ -6,18 +6,20 @@ import java.util.Scanner;
  * Created by thd on 2017/8/12
  */
 public class Main2_2 {
+    static int[] nums = new int[200010];
+    static int[] res = new int[200010];
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
-        int[] nums = new int[n];
+        //int[] nums = new int[n];
         for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
         }
-        int[] res = new int[n];
+        //int[] res = new int[n];
         int j = 0;
         int k = n - 1;
         int i = n - 1;
-        while (j <= k){
+        while (false && j <= k){
             if (j <= k) {
                 res[j++] = nums[i];
             }

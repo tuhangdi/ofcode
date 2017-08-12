@@ -1,6 +1,8 @@
 package netease812;
 
 
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
@@ -15,18 +17,19 @@ public class Main2 {
             nums[i] = sc.nextInt();
         }
 
-        StringBuffer sb = new StringBuffer();
+        //StringBuffer sb = new StringBuffer();
+        Deque<Integer> sb = new LinkedList<>();
         int i = 0;
         int num = n;
         if (num % 2 != 0) {
             while (i < n) {
                 if (i < n)
-                    sb.insert(0,nums[i]);
+                    sb.addFirst(nums[i]);
                 else
                     break;
                 i++;
                 if (i < n)
-                    sb.append(nums[i]);
+                    sb.addLast(nums[i]);
                 else break;
                 i++;
             }
@@ -34,12 +37,12 @@ public class Main2 {
         else {
             while (i < n) {
                 if (i < n)
-                    sb.append(nums[i]);
+                    sb.addLast(nums[i]);
                 else break;
                 i++;
 
                 if (i < n)
-                    sb.insert(0,nums[i]);
+                    sb.addFirst(nums[i]);
                 else
                     break;
                 i++;
@@ -47,9 +50,9 @@ public class Main2 {
             }
         }
         for (int j = 0; j < n - 1; j++) {
-            System.out.print(sb.charAt(j) + " ");
+            System.out.print(sb.removeFirst() + " ");
         }
-        System.out.print(sb.charAt(n-1));
+        System.out.print(sb.removeFirst());
 
     }
 
