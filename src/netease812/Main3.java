@@ -12,7 +12,7 @@ public class Main3 {
         int n = sc.nextInt();
         int[] x = new int[n + 1];
         int[] y = new int[n + 1];
-        int[][] d = new int[n + 1][n + 1];
+        //int[][] d = new int[n + 1][n + 1];
         long[] res = new long[n + 1];
         for (int i = 1; i < n + 1; i++) {
             x[i] = sc.nextInt();
@@ -20,28 +20,32 @@ public class Main3 {
         for (int i = 1; i < n + 1; i++) {
             y[i] = sc.nextInt();
         }
-        for (int i = 1; i < n + 1; i++) {
-            for (int j = 1; j < n + 1; j++) {
-                d[i][j] = Math.abs((y[j] - y[i])) + Math.abs((x[j] - x[i]));
-            }
-        }
+//        for (int i = 1; i < n + 1; i++) {
+//            for (int j = 1; j < n + 1; j++) {
+//                d[i][j] = Math.abs((y[j] - y[i])) + Math.abs((x[j] - x[i]));
+//            }
+//        }
         for (int i = 1; i < n + 1; i++) {
             res[i] = Integer.MAX_VALUE;
         }
         for (int i = 1; i < n + 1; i++) {
             long num = 0;
-            int[] nums = new int[n + 1];
+            //int[] nums = new int[n + 1];
 
             for (int j = 1; j < n + 1; j++) {
                 for (int k = 1; k < n + 1; k++) {
-                    nums[k] = d[k][j];
+                    // nums[k] = d[k][j];
+                    int[] nums = new int[n + 1];
+                    for (int l = 1; l < n + 1; l++) {
+                        nums[l] = Math.abs((y[l] - y[k])) + Math.abs((x[l] - x[j]));
+                    }
+                    Arrays.sort(nums);
+                    num = 0;
+                    for (int m = 1; m < i + 1; m++) {
+                        num += nums[m];
+                    }
+                    res[i] = Math.min(res[i], num);
                 }
-                Arrays.sort(nums);
-                for (int m = 1; m < i + 1; m++) {
-                    num += nums[m];
-                }
-                res[i] = Math.min(res[i], num);
-                num = 0;
             }
         }
 
