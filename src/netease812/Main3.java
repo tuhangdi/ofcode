@@ -35,14 +35,14 @@ public class Main3 {
             for (int j = 1; j < n + 1; j++) {
                 for (int k = 1; k < n + 1; k++) {
                     // nums[k] = d[k][j];
-                    int[] nums = new int[n + 1];
+                    int[] distance = new int[n + 1];
                     for (int l = 1; l < n + 1; l++) {
-                        nums[l] = Math.abs((y[l] - y[k])) + Math.abs((x[l] - x[j]));
+                        distance[l] = Math.abs((y[l] - y[k])) + Math.abs((x[l] - x[j]));
                     }
-                    Arrays.sort(nums);
+                    Arrays.sort(distance);
                     num = 0;
                     for (int m = 1; m < i + 1; m++) {
-                        num += nums[m];
+                        num += distance[m];
                     }
                     res[i] = Math.min(res[i], num);
                 }
