@@ -36,4 +36,9 @@ public class n22GenerateParentheses {
         if (close < open)
             backtrack(list, str + ")", open, close + 1, max);
     }
+
+    public static void main(String[] args) {
+        n22GenerateParentheses n = new n22GenerateParentheses();
+        System.out.println(n.generateParenthesis(4));
+    }
 }
