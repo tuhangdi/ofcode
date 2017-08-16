@@ -1,5 +1,7 @@
 package leetcode.Array;
 
+import org.junit.jupiter.api.Test;
+
 /**
  * Created by thd on 2017/8/14
  * There are two sorted arrays nums1 and nums2 of size m and n respectively.
@@ -49,7 +51,8 @@ public class n4MedianOfTwoSortedArrays {
             return getKth(A, aStart, B, bStart + k / 2, k - k / 2);
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void test() {
         int[] nums1 = {1, 2, 4, 6};
         int[] nums2 = {3, 4, 7, 8};
         n4MedianOfTwoSortedArrays n = new n4MedianOfTwoSortedArrays();
