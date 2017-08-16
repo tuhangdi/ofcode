@@ -1,5 +1,7 @@
 package leetcode.String;
 
+import org.junit.jupiter.api.Test;
+
 /**
  * Created by thd on 2017/8/15
  *
@@ -45,7 +47,8 @@ public class n5LongestPalindromicSubstring {
         return right - left - 1;
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void test() {
         String s = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
         n5LongestPalindromicSubstring n = new n5LongestPalindromicSubstring();
         System.out.println(n.longestPalindrome(s));

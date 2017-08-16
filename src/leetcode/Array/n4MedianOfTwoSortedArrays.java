@@ -31,8 +31,7 @@ import org.junit.jupiter.api.Test;
 public class n4MedianOfTwoSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length, n = nums2.length;
-        int l = (m + n + 1) / 2;
-        int r = (m + n + 2) / 2;
+        int l = (m + n + 1) / 2, r = (m + n + 2) / 2;
         return (getKth(nums1, 0, nums2, 0, l) + getKth(nums1, 0, nums2, 0, r)) / 2.0;
 
     }
