@@ -19,12 +19,7 @@ public class n56MergeIntervals {
     public List<Interval> merge(List<Interval> intervals) {
         List<Interval> res = new ArrayList<>();
         if (intervals.size() == 0) return res;
-        Collections.sort(intervals, new Comparator<Interval>() {
-            @Override
-            public int compare(Interval o1, Interval o2) {
-                return o1.start - o2.start;
-            }
-        });
+        Collections.sort(intervals, Comparator.comparingInt(o -> o.start));
         Interval f = intervals.get(0),tmp;
 
         for (int i = 1; i < intervals.size(); i++) {
