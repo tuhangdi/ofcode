@@ -14,21 +14,14 @@ package leetcode.DP;
  */
 public class n198HouseRobber {
     public int rob(int[] nums) {
-        if(nums == null || nums.length == 0) return 0;
-        if (nums.length == 1) return nums[0];
-        else if (nums.length == 2) return Math.max(nums[0],nums[1]);
-        else if (nums.length == 3) return Math.max(nums[0] + nums[2], nums[1]);
-        int[] dp = new int[nums.length];
-        dp[0] = nums[0];
-        dp[1] = nums[1];
-        dp[2] = nums[0] + nums[2];
-        int res = Math.max(nums[0] + nums[2], nums[1]);
-        for (int i = 3; i < nums.length; i++) {
-            dp[i] = Math.max(nums[i] + dp[i - 2], nums[i] + dp[i - 3]);
-            if (dp[i] > res)
-                res = dp[i];
+        int prevNo = 0;
+        int prevYes = 0;
+        for (int n : nums) {
+            int temp = prevNo;
+            prevNo = Math.max(prevNo, prevYes);
+            prevYes = n + temp;
         }
-        return res;
+        return Math.max(prevNo, prevYes);
     }
 
     public static void main(String[] args) {
