@@ -16,12 +16,15 @@ public class Main2 {
         System.out.println(sl.size());
         int max = Integer.MIN_VALUE;
         int res = 0;
+        int i = 0;
         for (String t : sl) {
             int n = getLongestCommonSubsequence(s, t);
             if (max <= n) {
                 max = n;
-                res++;
-            }
+                i++;
+                if (i > res)
+                    res = i;
+            } else i = 0;
 
         }
         System.out.println(res);
