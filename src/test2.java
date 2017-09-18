@@ -1,18 +1,36 @@
 /**
  * Created by thd on 2017/9/7.
  */
-public class test2 {
-    public static test2 t1 = new test2();
-    public static test2 t2 = new test2();
-    {
-        System.out.println("构造块");
+import java.util.*;
+
+public class test2  {
+    public test2() {
+        System.out.println("HikvisionA");
     }
-    static
     {
-        System.out.println("静态块");
+        System.out.println("HikA COde");
     }
-    public static void main(String[] args)
+    static {
+        System.out.println("Stack A");
+    }
+
+
+}
+
+
+ class hb extends test2 {
+    public hb() {
+        System.out.println("Hb");
+    }
     {
-        test2 t = new test2();
+        System.out.println("hb code");
+    }
+    static {
+        System.out.println("static");
+    }
+
+    public static void main(String[] args) {
+        new hb();
+        System.out.println(5&6);
     }
 }

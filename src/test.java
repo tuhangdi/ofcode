@@ -1,24 +1,25 @@
+import javafx.util.BuilderFactory;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Created by thd on 2017/8/9
  */
-class Thread1 implements Runnable{
-    private final String name;
 
-    public Thread1(String name) {
-        this.name = name;
-    }
-    public void run(){
-        for (int i = 0; i < 5; i++) {
-            System.out.println(name + "运行" + i);
-        }
-    }
-}
-public class test {
+public class test{
+    private  String username;
+
     public static void main(String[] args) {
-        Thread1 th = new Thread1("A");
-        Thread1 th2 = new Thread1("B");
-        new Thread(th).start();
-        new Thread(th2).start();
+        test user = new test();
+        user.username = "admin";
+        uservo vo = uservo.Builder.getBuilder().append(user).build();
+        uservo vo2 = uservo.Builder.getBuilder().setUsername("xiaoming").build();
+        System.out.println(vo.username + vo2.username);
+    }
+    public static class uservo {
+        public static BuilderFactory Builder;
+        private String username;
+        
     }
 }
