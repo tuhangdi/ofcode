@@ -16,20 +16,21 @@ public class Findpath {
         return  allpath;
     }
     public void Find(TreeNode root, int target, ArrayList<ArrayList<Integer>> allpath, ArrayList<Integer> path){
-        path.add(root.val);
-        System.out.println(root.val);
+        if (root == null) return;
         if(root.left == null && root.right == null){
             if(root.val == target) {
-                allpath.add(path);
-                System.out.println("find");
+                path.add(root.val);
+                allpath.add(new ArrayList<Integer>(path));
+                path.remove(path.size() - 1);
             }
             return;
         }
-        ArrayList<Integer> path2 = new ArrayList<>();
-        path2.addAll(path);
-        if(root.left != null) Find(root.left, target - root.val, allpath, path);
-        if(root.right != null) Find(root.right, target - root.val, allpath, path);
+        path.add(root.val);
+        Find(root.left, target - root.val, allpath, path);
+        Find(root.right, target - root.val, allpath, path);
+        path.remove(path.size() - 1);
     }
+
     public static void main(String[] args){
         TreeNode tree = new TreeNode(10);
         TreeNode treenode3 = new TreeNode(5);
